@@ -21,12 +21,17 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(WELCOME_LINE + "\n");
+    // builder.append(WELCOME_LINE + "\n");
+    builder.append(chrisSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
     builder.append(patSaysHello());
 
     return builder.toString();
+  }
+
+  private String chrisSaysHello() {
+    return "Chris says 'Hello!'\n";
   }
 
   private String nicSaysHello() {
