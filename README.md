@@ -1,4 +1,4 @@
-# Introduction to `git`
+# Introduction to `git` and stuff
 
 !["Broken" badge to remind us to fix the URLs on the "real" badges](https://img.shields.io/badge/FIX_BADGES-Badges_below_need_to_be_updated-red)
 
