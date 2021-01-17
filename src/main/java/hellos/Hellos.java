@@ -22,9 +22,9 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(WELCOME_LINE + "\n");
+    builder.append(chrisSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
-    builder.append(chrisSaysHello());
     builder.append(patSaysHello());
 
     return builder.toString();
