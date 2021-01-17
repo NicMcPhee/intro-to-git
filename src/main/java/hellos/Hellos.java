@@ -21,7 +21,7 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(WELCOME_LINE + "\n");
+    // builder.append(WELCOME_LINE + "\n");
     builder.append(chrisSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
